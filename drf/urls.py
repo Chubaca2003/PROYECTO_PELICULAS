@@ -19,5 +19,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('mi_app.urls')),  # Enlaza la vista inicial
+    path('', include('peliculas_app.urls')),  # Enlaza la vista inicial
 ]
