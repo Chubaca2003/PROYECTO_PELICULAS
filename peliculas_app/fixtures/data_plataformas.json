@@ -1,0 +1,79 @@
+[
+    {
+        "model": "peliculas_app.plataforma",
+        "pk": 1,
+        "fields": {
+            "nombre": "Netflix",
+            "web": "https://www.netflix.com",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.plataforma",
+        "pk": 2,
+        "fields": {
+            "nombre": "Disney+",
+            "web": "https://www.disneyplus.com",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.plataforma",
+        "pk": 3,
+        "fields": {
+            "nombre": "HBO Max",
+            "web": "https://www.max.com",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.plataforma",
+        "pk": 4,
+        "fields": {
+            "nombre": "Prime Video",
+            "web": "https://www.primevideo.com",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.plataforma",
+        "pk": 5,
+        "fields": {
+            "nombre": "Apple TV+",
+            "web": "https://tv.apple.com",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.plataforma",
+        "pk": 6,
+        "fields": {
+            "nombre": "Paramount+",
+            "web": "https://www.paramountplus.com",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.plataforma",
+        "pk": 7,
+        "fields": {
+            "nombre": "Mubi",
+            "web": "https://mubi.com",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    }
+]

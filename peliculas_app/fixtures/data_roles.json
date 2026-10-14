@@ -1,0 +1,90 @@
+[
+    {
+        "model": "peliculas_app.rolproduccion",
+        "pk": 1,
+        "fields": {
+            "rol": "Actor",
+            "descripcion": "Interpreta un personaje en pantalla.",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.rolproduccion",
+        "pk": 2,
+        "fields": {
+            "rol": "Actriz",
+            "descripcion": "Interpreta un personaje en pantalla.",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.rolproduccion",
+        "pk": 3,
+        "fields": {
+            "rol": "Director",
+            "descripcion": "Responsable de la dirección general de la obra.",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.rolproduccion",
+        "pk": 4,
+        "fields": {
+            "rol": "Guionista",
+            "descripcion": "Autor del guion.",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.rolproduccion",
+        "pk": 5,
+        "fields": {
+            "rol": "Productor",
+            "descripcion": "Encargado de la gestión y financiamiento.",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.rolproduccion",
+        "pk": 6,
+        "fields": {
+            "rol": "Compositor",
+            "descripcion": "Responsable de la banda sonora.",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.rolproduccion",
+        "pk": 7,
+        "fields": {
+            "rol": "Director de Fotografía",
+            "descripcion": "Responsable de la imagen y la iluminación.",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.rolproduccion",
+        "pk": 8,
+        "fields": {
+            "rol": "Montajista",
+            "descripcion": "Responsable del montaje y edición.",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    }
+]

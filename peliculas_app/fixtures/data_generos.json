@@ -1,0 +1,167 @@
+[
+    {
+        "model": "peliculas_app.genero",
+        "pk": 1,
+        "fields": {
+            "genero": "Acción",
+            "descripcion": "Persecuciones, combates y secuencias de alto ritmo.",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.genero",
+        "pk": 2,
+        "fields": {
+            "genero": "Aventura",
+            "descripcion": "Viajes y travesías con desafíos constantes.",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.genero",
+        "pk": 3,
+        "fields": {
+            "genero": "Comedia",
+            "descripcion": "Contenido humorístico orientado al entretenimiento.",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.genero",
+        "pk": 4,
+        "fields": {
+            "genero": "Drama",
+            "descripcion": "Conflictos humanos y desarrollo emocional de personajes.",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.genero",
+        "pk": 5,
+        "fields": {
+            "genero": "Terror",
+            "descripcion": "Busca provocar miedo, tensión y sobresalto.",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.genero",
+        "pk": 6,
+        "fields": {
+            "genero": "Suspenso",
+            "descripcion": "Intriga sostenida y revelaciones progresivas.",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.genero",
+        "pk": 7,
+        "fields": {
+            "genero": "Ciencia Ficción",
+            "descripcion": "Escenarios futuristas, tecnología y especulación científica.",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.genero",
+        "pk": 8,
+        "fields": {
+            "genero": "Fantasía",
+            "descripcion": "Mundos imaginarios con elementos sobrenaturales.",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.genero",
+        "pk": 9,
+        "fields": {
+            "genero": "Documental",
+            "descripcion": "Registro de hechos y personajes reales.",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.genero",
+        "pk": 10,
+        "fields": {
+            "genero": "Animación",
+            "descripcion": "Obras realizadas mediante técnicas de animación.",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.genero",
+        "pk": 11,
+        "fields": {
+            "genero": "Romance",
+            "descripcion": "Relaciones afectivas como eje central del relato.",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.genero",
+        "pk": 12,
+        "fields": {
+            "genero": "Policial",
+            "descripcion": "Investigaciones criminales y procedimientos policiales.",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.genero",
+        "pk": 13,
+        "fields": {
+            "genero": "Histórico",
+            "descripcion": "Ambientado en hechos o épocas del pasado.",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.genero",
+        "pk": 14,
+        "fields": {
+            "genero": "Musical",
+            "descripcion": "La música y las interpretaciones conducen la narración.",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.genero",
+        "pk": 15,
+        "fields": {
+            "genero": "Bélico",
+            "descripcion": "Conflictos armados y sus consecuencias.",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    }
+]

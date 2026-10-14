@@ -1,0 +1,80 @@
+[
+    {
+        "model": "peliculas_app.clasificacion",
+        "pk": 1,
+        "fields": {
+            "codigo": "TE",
+            "clasificacion": "Todo Espectador",
+            "edad_minima": 0,
+            "descripcion": "Apto para todo público.",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.clasificacion",
+        "pk": 2,
+        "fields": {
+            "codigo": "TE+7",
+            "clasificacion": "Todo Espectador mayores de 7",
+            "edad_minima": 7,
+            "descripcion": "Supervisión sugerida para menores de 7 años.",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.clasificacion",
+        "pk": 3,
+        "fields": {
+            "codigo": "TE+10",
+            "clasificacion": "Todo Espectador mayores de 10",
+            "edad_minima": 10,
+            "descripcion": "Contenido leve no apto para niños pequeños.",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.clasificacion",
+        "pk": 4,
+        "fields": {
+            "codigo": "+14",
+            "clasificacion": "Mayores de 14 años",
+            "edad_minima": 14,
+            "descripcion": "Violencia moderada o temáticas adultas leves.",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.clasificacion",
+        "pk": 5,
+        "fields": {
+            "codigo": "+16",
+            "clasificacion": "Mayores de 16 años",
+            "edad_minima": 16,
+            "descripcion": "Violencia, lenguaje fuerte o temáticas sensibles.",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.clasificacion",
+        "pk": 6,
+        "fields": {
+            "codigo": "+18",
+            "clasificacion": "Mayores de 18 años",
+            "edad_minima": 18,
+            "descripcion": "Contenido exclusivo para público adulto.",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    }
+]

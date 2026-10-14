@@ -1,0 +1,79 @@
+[
+    {
+        "model": "peliculas_app.estado",
+        "pk": 1,
+        "fields": {
+            "estado": "Anunciado",
+            "descripcion": "Confirmado pero sin fecha de estreno definida.",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.estado",
+        "pk": 2,
+        "fields": {
+            "estado": "En Producción",
+            "descripcion": "Actualmente en rodaje o postproducción.",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.estado",
+        "pk": 3,
+        "fields": {
+            "estado": "Estreno",
+            "descripcion": "Recientemente publicado en el catálogo.",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.estado",
+        "pk": 4,
+        "fields": {
+            "estado": "En Emisión",
+            "descripcion": "Serie con temporadas publicándose actualmente.",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.estado",
+        "pk": 5,
+        "fields": {
+            "estado": "Finalizado",
+            "descripcion": "Obra completa, sin contenido pendiente.",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.estado",
+        "pk": 6,
+        "fields": {
+            "estado": "Cancelado",
+            "descripcion": "Producción interrumpida antes de finalizar.",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.estado",
+        "pk": 7,
+        "fields": {
+            "estado": "Retirado",
+            "descripcion": "Ya no se encuentra disponible en el catálogo.",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    }
+]

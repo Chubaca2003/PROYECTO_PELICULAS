@@ -1,0 +1,134 @@
+[
+    {
+        "model": "peliculas_app.idioma",
+        "pk": 1,
+        "fields": {
+            "idioma": "Español",
+            "codigo": "es",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.idioma",
+        "pk": 2,
+        "fields": {
+            "idioma": "Español (Chile)",
+            "codigo": "es-cl",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.idioma",
+        "pk": 3,
+        "fields": {
+            "idioma": "Inglés",
+            "codigo": "en",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.idioma",
+        "pk": 4,
+        "fields": {
+            "idioma": "Portugués",
+            "codigo": "pt",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.idioma",
+        "pk": 5,
+        "fields": {
+            "idioma": "Francés",
+            "codigo": "fr",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.idioma",
+        "pk": 6,
+        "fields": {
+            "idioma": "Italiano",
+            "codigo": "it",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.idioma",
+        "pk": 7,
+        "fields": {
+            "idioma": "Alemán",
+            "codigo": "de",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.idioma",
+        "pk": 8,
+        "fields": {
+            "idioma": "Japonés",
+            "codigo": "ja",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.idioma",
+        "pk": 9,
+        "fields": {
+            "idioma": "Coreano",
+            "codigo": "ko",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.idioma",
+        "pk": 10,
+        "fields": {
+            "idioma": "Mandarín",
+            "codigo": "zh",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.idioma",
+        "pk": 11,
+        "fields": {
+            "idioma": "Hindi",
+            "codigo": "hi",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.idioma",
+        "pk": 12,
+        "fields": {
+            "idioma": "Sueco",
+            "codigo": "sv",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00",
+            "updated_at": "2026-10-14T12:00:00"
+        }
+    }
+]
