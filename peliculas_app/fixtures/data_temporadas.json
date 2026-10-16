@@ -1,0 +1,54 @@
+[
+    {
+        "model": "peliculas_app.temporada",
+        "pk": 1,
+        "fields": {
+            "serie": 6,
+            "numero": 1,
+            "nombre": "Planeta Tierra",
+            "anio_estreno": 2006,
+            "habilitado": true,
+            "created_at": "2026-10-16T10:00:00",
+            "updated_at": "2026-10-16T10:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.temporada",
+        "pk": 2,
+        "fields": {
+            "serie": 6,
+            "numero": 2,
+            "nombre": "Planeta Tierra II",
+            "anio_estreno": 2016,
+            "habilitado": true,
+            "created_at": "2026-10-16T10:00:00",
+            "updated_at": "2026-10-16T10:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.temporada",
+        "pk": 3,
+        "fields": {
+            "serie": 7,
+            "numero": 1,
+            "nombre": "Temporada 1",
+            "anio_estreno": 2021,
+            "habilitado": true,
+            "created_at": "2026-10-16T10:00:00",
+            "updated_at": "2026-10-16T10:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.temporada",
+        "pk": 4,
+        "fields": {
+            "serie": 7,
+            "numero": 2,
+            "nombre": "Temporada 2",
+            "anio_estreno": 2024,
+            "habilitado": true,
+            "created_at": "2026-10-16T10:00:00",
+            "updated_at": "2026-10-16T10:00:00"
+        }
+    }
+]

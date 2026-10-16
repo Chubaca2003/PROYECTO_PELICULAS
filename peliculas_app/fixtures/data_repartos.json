@@ -1,0 +1,119 @@
+[
+    {
+        "model": "peliculas_app.reparto",
+        "pk": 1,
+        "fields": {
+            "titulo": 1,
+            "persona": 1,
+            "rol": 3,
+            "personaje": null,
+            "habilitado": true,
+            "created_at": "2026-10-16T10:00:00",
+            "updated_at": "2026-10-16T10:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.reparto",
+        "pk": 2,
+        "fields": {
+            "titulo": 2,
+            "persona": 2,
+            "rol": 3,
+            "personaje": null,
+            "habilitado": true,
+            "created_at": "2026-10-16T10:00:00",
+            "updated_at": "2026-10-16T10:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.reparto",
+        "pk": 3,
+        "fields": {
+            "titulo": 2,
+            "persona": 5,
+            "rol": 1,
+            "personaje": "J. Robert Oppenheimer",
+            "habilitado": true,
+            "created_at": "2026-10-16T10:00:00",
+            "updated_at": "2026-10-16T10:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.reparto",
+        "pk": 4,
+        "fields": {
+            "titulo": 2,
+            "persona": 8,
+            "rol": 2,
+            "personaje": "Kitty Oppenheimer",
+            "habilitado": true,
+            "created_at": "2026-10-16T10:00:00",
+            "updated_at": "2026-10-16T10:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.reparto",
+        "pk": 5,
+        "fields": {
+            "titulo": 3,
+            "persona": 3,
+            "rol": 3,
+            "personaje": null,
+            "habilitado": true,
+            "created_at": "2026-10-16T10:00:00",
+            "updated_at": "2026-10-16T10:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.reparto",
+        "pk": 6,
+        "fields": {
+            "titulo": 3,
+            "persona": 6,
+            "rol": 1,
+            "personaje": "Ki-taek",
+            "habilitado": true,
+            "created_at": "2026-10-16T10:00:00",
+            "updated_at": "2026-10-16T10:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.reparto",
+        "pk": 7,
+        "fields": {
+            "titulo": 4,
+            "persona": 4,
+            "rol": 3,
+            "personaje": null,
+            "habilitado": true,
+            "created_at": "2026-10-16T10:00:00",
+            "updated_at": "2026-10-16T10:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.reparto",
+        "pk": 8,
+        "fields": {
+            "titulo": 4,
+            "persona": 7,
+            "rol": 1,
+            "personaje": "Lucho Guzman",
+            "habilitado": true,
+            "created_at": "2026-10-16T10:00:00",
+            "updated_at": "2026-10-16T10:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.reparto",
+        "pk": 9,
+        "fields": {
+            "titulo": 7,
+            "persona": 6,
+            "rol": 1,
+            "personaje": "Participante",
+            "habilitado": true,
+            "created_at": "2026-10-16T10:00:00",
+            "updated_at": "2026-10-16T10:00:00"
+        }
+    }
+]

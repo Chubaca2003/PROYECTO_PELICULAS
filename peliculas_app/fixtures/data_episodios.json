@@ -1,0 +1,137 @@
+[
+    {
+        "model": "peliculas_app.episodio",
+        "pk": 1,
+        "fields": {
+            "temporada": 1,
+            "numero": 1,
+            "titulo": "De polo a polo",
+            "sinopsis": null,
+            "duracion": 59,
+            "fecha_emision": "2006-03-05",
+            "habilitado": true,
+            "created_at": "2026-10-16T10:00:00",
+            "updated_at": "2026-10-16T10:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.episodio",
+        "pk": 2,
+        "fields": {
+            "temporada": 1,
+            "numero": 2,
+            "titulo": "Montanas",
+            "sinopsis": null,
+            "duracion": 59,
+            "fecha_emision": "2006-03-12",
+            "habilitado": true,
+            "created_at": "2026-10-16T10:00:00",
+            "updated_at": "2026-10-16T10:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.episodio",
+        "pk": 3,
+        "fields": {
+            "temporada": 1,
+            "numero": 3,
+            "titulo": "Agua dulce",
+            "sinopsis": null,
+            "duracion": 59,
+            "fecha_emision": "2006-03-19",
+            "habilitado": true,
+            "created_at": "2026-10-16T10:00:00",
+            "updated_at": "2026-10-16T10:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.episodio",
+        "pk": 4,
+        "fields": {
+            "temporada": 2,
+            "numero": 1,
+            "titulo": "Islas",
+            "sinopsis": null,
+            "duracion": 50,
+            "fecha_emision": "2016-11-06",
+            "habilitado": true,
+            "created_at": "2026-10-16T10:00:00",
+            "updated_at": "2026-10-16T10:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.episodio",
+        "pk": 5,
+        "fields": {
+            "temporada": 2,
+            "numero": 2,
+            "titulo": "Montanas",
+            "sinopsis": null,
+            "duracion": 50,
+            "fecha_emision": "2016-11-13",
+            "habilitado": true,
+            "created_at": "2026-10-16T10:00:00",
+            "updated_at": "2026-10-16T10:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.episodio",
+        "pk": 6,
+        "fields": {
+            "temporada": 3,
+            "numero": 1,
+            "titulo": "Luz roja, luz verde",
+            "sinopsis": null,
+            "duracion": 60,
+            "fecha_emision": "2021-09-17",
+            "habilitado": true,
+            "created_at": "2026-10-16T10:00:00",
+            "updated_at": "2026-10-16T10:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.episodio",
+        "pk": 7,
+        "fields": {
+            "temporada": 3,
+            "numero": 2,
+            "titulo": "El infierno",
+            "sinopsis": null,
+            "duracion": 63,
+            "fecha_emision": "2021-09-17",
+            "habilitado": true,
+            "created_at": "2026-10-16T10:00:00",
+            "updated_at": "2026-10-16T10:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.episodio",
+        "pk": 8,
+        "fields": {
+            "temporada": 3,
+            "numero": 3,
+            "titulo": "El hombre del paraguas",
+            "sinopsis": null,
+            "duracion": 55,
+            "fecha_emision": "2021-09-17",
+            "habilitado": true,
+            "created_at": "2026-10-16T10:00:00",
+            "updated_at": "2026-10-16T10:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.episodio",
+        "pk": 9,
+        "fields": {
+            "temporada": 4,
+            "numero": 1,
+            "titulo": "Pan y loteria",
+            "sinopsis": null,
+            "duracion": 61,
+            "fecha_emision": "2024-12-26",
+            "habilitado": true,
+            "created_at": "2026-10-16T10:00:00",
+            "updated_at": "2026-10-16T10:00:00"
+        }
+    }
+]

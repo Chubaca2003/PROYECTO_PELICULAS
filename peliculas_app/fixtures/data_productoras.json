@@ -1,0 +1,98 @@
+[
+    {
+        "model": "peliculas_app.productora",
+        "pk": 1,
+        "fields": {
+            "nombre": "Warner Bros. Pictures",
+            "pais": 235,
+            "anio_fundacion": 1923,
+            "web": "https://www.warnerbros.com",
+            "correo": null,
+            "telefono": null,
+            "direccion": null,
+            "habilitado": true,
+            "created_at": "2026-10-16T10:00:00",
+            "updated_at": "2026-10-16T10:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.productora",
+        "pk": 2,
+        "fields": {
+            "nombre": "Studio Ghibli",
+            "pais": 116,
+            "anio_fundacion": 1985,
+            "web": "https://www.ghibli.jp",
+            "correo": null,
+            "telefono": null,
+            "direccion": null,
+            "habilitado": true,
+            "created_at": "2026-10-16T10:00:00",
+            "updated_at": "2026-10-16T10:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.productora",
+        "pk": 3,
+        "fields": {
+            "nombre": "A24",
+            "pais": 235,
+            "anio_fundacion": 2012,
+            "web": "https://a24films.com",
+            "correo": null,
+            "telefono": null,
+            "direccion": null,
+            "habilitado": true,
+            "created_at": "2026-10-16T10:00:00",
+            "updated_at": "2026-10-16T10:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.productora",
+        "pk": 4,
+        "fields": {
+            "nombre": "Fabula",
+            "pais": 43,
+            "anio_fundacion": 2003,
+            "web": null,
+            "correo": null,
+            "telefono": null,
+            "direccion": null,
+            "habilitado": true,
+            "created_at": "2026-10-16T10:00:00",
+            "updated_at": "2026-10-16T10:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.productora",
+        "pk": 5,
+        "fields": {
+            "nombre": "BBC Studios",
+            "pais": 80,
+            "anio_fundacion": 1922,
+            "web": "https://www.bbcstudios.com",
+            "correo": null,
+            "telefono": null,
+            "direccion": null,
+            "habilitado": true,
+            "created_at": "2026-10-16T10:00:00",
+            "updated_at": "2026-10-16T10:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.productora",
+        "pk": 6,
+        "fields": {
+            "nombre": "CJ ENM",
+            "pais": 123,
+            "anio_fundacion": 1995,
+            "web": null,
+            "correo": null,
+            "telefono": null,
+            "direccion": null,
+            "habilitado": true,
+            "created_at": "2026-10-16T10:00:00",
+            "updated_at": "2026-10-16T10:00:00"
+        }
+    }
+]

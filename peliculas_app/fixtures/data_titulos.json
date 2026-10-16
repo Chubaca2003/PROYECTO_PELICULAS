@@ -1,0 +1,156 @@
+[
+    {
+        "model": "peliculas_app.titulo",
+        "pk": 1,
+        "fields": {
+            "titulo": "El viaje de Chihiro",
+            "titulo_original": "Sen to Chihiro no kamikakushi",
+            "tipo": "PELICULA",
+            "sinopsis": "Una nina queda atrapada en un mundo de espiritus y debe trabajar para liberar a sus padres.",
+            "anio_estreno": 2001,
+            "duracion": 125,
+            "genero": 8,
+            "idioma": 8,
+            "clasificacion": 2,
+            "estado": 5,
+            "productora": 2,
+            "plataforma": 3,
+            "pais_origen": 116,
+            "habilitado": true,
+            "created_at": "2026-10-16T10:00:00",
+            "updated_at": "2026-10-16T10:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.titulo",
+        "pk": 2,
+        "fields": {
+            "titulo": "Oppenheimer",
+            "titulo_original": "Oppenheimer",
+            "tipo": "PELICULA",
+            "sinopsis": "La historia del fisico que lidero el desarrollo de la bomba atomica.",
+            "anio_estreno": 2023,
+            "duracion": 180,
+            "genero": 13,
+            "idioma": 3,
+            "clasificacion": 5,
+            "estado": 5,
+            "productora": 1,
+            "plataforma": 3,
+            "pais_origen": 235,
+            "habilitado": true,
+            "created_at": "2026-10-16T10:00:00",
+            "updated_at": "2026-10-16T10:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.titulo",
+        "pk": 3,
+        "fields": {
+            "titulo": "Parasitos",
+            "titulo_original": "Gisaengchung",
+            "tipo": "PELICULA",
+            "sinopsis": "Una familia sin recursos se infiltra poco a poco en el hogar de una familia adinerada.",
+            "anio_estreno": 2019,
+            "duracion": 132,
+            "genero": 6,
+            "idioma": 9,
+            "clasificacion": 5,
+            "estado": 5,
+            "productora": 6,
+            "plataforma": 3,
+            "pais_origen": 123,
+            "habilitado": true,
+            "created_at": "2026-10-16T10:00:00",
+            "updated_at": "2026-10-16T10:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.titulo",
+        "pk": 4,
+        "fields": {
+            "titulo": "No",
+            "titulo_original": "No",
+            "tipo": "PELICULA",
+            "sinopsis": "La campana publicitaria del plebiscito de 1988 en Chile.",
+            "anio_estreno": 2012,
+            "duracion": 118,
+            "genero": 13,
+            "idioma": 2,
+            "clasificacion": 4,
+            "estado": 5,
+            "productora": 4,
+            "plataforma": 7,
+            "pais_origen": 43,
+            "habilitado": true,
+            "created_at": "2026-10-16T10:00:00",
+            "updated_at": "2026-10-16T10:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.titulo",
+        "pk": 5,
+        "fields": {
+            "titulo": "Midsommar",
+            "titulo_original": "Midsommar",
+            "tipo": "PELICULA",
+            "sinopsis": "Un grupo de amigos viaja a un festival de verano en Suecia que resulta ser algo muy distinto.",
+            "anio_estreno": 2019,
+            "duracion": 148,
+            "genero": 5,
+            "idioma": 3,
+            "clasificacion": 6,
+            "estado": 5,
+            "productora": 3,
+            "plataforma": 4,
+            "pais_origen": 235,
+            "habilitado": true,
+            "created_at": "2026-10-16T10:00:00",
+            "updated_at": "2026-10-16T10:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.titulo",
+        "pk": 6,
+        "fields": {
+            "titulo": "Planeta Tierra",
+            "titulo_original": "Planet Earth",
+            "tipo": "SERIE",
+            "sinopsis": "Documental sobre los ecosistemas y la fauna del planeta.",
+            "anio_estreno": 2006,
+            "duracion": 50,
+            "genero": 9,
+            "idioma": 3,
+            "clasificacion": 1,
+            "estado": 5,
+            "productora": 5,
+            "plataforma": 3,
+            "pais_origen": 80,
+            "habilitado": true,
+            "created_at": "2026-10-16T10:00:00",
+            "updated_at": "2026-10-16T10:00:00"
+        }
+    },
+    {
+        "model": "peliculas_app.titulo",
+        "pk": 7,
+        "fields": {
+            "titulo": "El juego del calamar",
+            "titulo_original": "Ojingeo geim",
+            "tipo": "SERIE",
+            "sinopsis": "Cientos de personas endeudadas compiten en juegos infantiles mortales por un gran premio.",
+            "anio_estreno": 2021,
+            "duracion": 55,
+            "genero": 6,
+            "idioma": 9,
+            "clasificacion": 6,
+            "estado": 4,
+            "productora": 6,
+            "plataforma": 1,
+            "pais_origen": 123,
+            "habilitado": true,
+            "created_at": "2026-10-16T10:00:00",
+            "updated_at": "2026-10-16T10:00:00"
+        }
+    }
+]
