@@ -4,7 +4,7 @@ Evaluación N.º 2 — Programación Backend — INACAP 2026
 Proyecto asignado N.º 29: **API de Películas y Series**
 
 API REST construida con Django REST Framework sobre un portal audiovisual.
-Expone CRUD completo (GET, POST, PUT, PATCH y DELETE) para las 21 clases del
+Expone CRUD completo (GET, POST, PUT, PATCH y DELETE) para las 17 clases del
 modelo de datos mediante `ModelViewSet` y un `DefaultRouter`.
 
 ## Requisitos previos
@@ -51,8 +51,9 @@ modelo de datos mediante `ModelViewSet` y un `DefaultRouter`.
 
     ```bash
     python manage.py migrate
-    python manage.py loaddata data_paises data_regiones data_provincias data_comunas \
-        data_generos data_idiomas data_clasificaciones data_estados data_roles data_plataformas
+    python manage.py loaddata data_paises data_generos data_idiomas data_clasificaciones \
+        data_estados data_roles data_plataformas data_productoras data_personas \
+        data_titulos data_temporadas data_episodios data_repartos
     ```
 
 5. **Ejecución**
@@ -67,9 +68,9 @@ modelo de datos mediante `ModelViewSet` y un `DefaultRouter`.
 
 ## Modelo de datos
 
-21 clases agrupadas en cuatro áreas:
+17 clases agrupadas en tres áreas, más la tabla de países:
 
-**Ubicación geográfica** — `Pais`, `Region`, `Provincia`, `Comuna`, `Direccion`
+**Países** — `Pais`, usado como origen de títulos, productoras y personas.
 
 **Catálogo audiovisual** — `Genero`, `Idioma`, `Clasificacion`, `Estado`,
 `Productora`, `Plataforma`, `Titulo`, `Temporada`, `Episodio`
@@ -94,17 +95,15 @@ Todos cuelgan de `/api/` y entregan el CRUD completo:
 
 | Recurso | URL | Recurso | URL |
 |---|---|---|---|
-| País | `/api/paises/` | Título | `/api/titulos/` |
-| Región | `/api/regiones/` | Temporada | `/api/temporadas/` |
-| Provincia | `/api/provincias/` | Episodio | `/api/episodios/` |
-| Comuna | `/api/comunas/` | Persona | `/api/personas/` |
-| Dirección | `/api/direcciones/` | Rol de producción | `/api/roles/` |
-| Género | `/api/generos/` | Reparto | `/api/repartos/` |
-| Idioma | `/api/idiomas/` | Usuario | `/api/usuarios/` |
-| Clasificación | `/api/clasificaciones/` | Crítico | `/api/criticos/` |
-| Estado | `/api/estados/` | Reseña | `/api/resenas/` |
-| Productora | `/api/productoras/` | Visualización | `/api/visualizaciones/` |
-| Plataforma | `/api/plataformas/` | | |
+| País | `/api/paises/` | Temporada | `/api/temporadas/` |
+| Género | `/api/generos/` | Episodio | `/api/episodios/` |
+| Idioma | `/api/idiomas/` | Persona | `/api/personas/` |
+| Clasificación | `/api/clasificaciones/` | Rol de producción | `/api/roles/` |
+| Estado | `/api/estados/` | Reparto | `/api/repartos/` |
+| Productora | `/api/productoras/` | Usuario | `/api/usuarios/` |
+| Plataforma | `/api/plataformas/` | Crítico | `/api/criticos/` |
+| Título | `/api/titulos/` | Reseña | `/api/resenas/` |
+| | | Visualización | `/api/visualizaciones/` |
 
 Métodos disponibles en cada recurso:
 
@@ -125,11 +124,11 @@ backend_1/
 │   ├── settings.py         # INSTALLED_APPS, DB y credenciales vía .env
 │   └── urls.py             # Incluye las urls de peliculas_app
 ├── peliculas_app/          # Aplicación particular
-│   ├── models.py           # 21 clases del modelo de datos
+│   ├── models.py           # 17 clases del modelo de datos
 │   ├── serializer.py       # Un ModelSerializer por clase
 │   ├── views.py            # Un ModelViewSet por clase + portada
 │   ├── urls.py             # Router de DRF
-│   ├── admin.py            # Registro de las 21 clases en el admin
+│   ├── admin.py            # Registro de las 17 clases en el admin
 │   ├── migrations/         # Migraciones del modelo
 │   ├── fixtures/           # Datos iniciales
 │   └── templates/          # Portada y página de sistema no disponible

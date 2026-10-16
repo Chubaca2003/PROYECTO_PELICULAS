@@ -1,10 +1,6 @@
 from django.contrib import admin
 
 from .models import Pais
-from .models import Region
-from .models import Provincia
-from .models import Comuna
-from .models import Direccion
 from .models import Genero
 from .models import Idioma
 from .models import Clasificacion
@@ -24,10 +20,6 @@ from .models import Visualizacion
 
 # Register your models here.
 admin.site.register(Pais)
-admin.site.register(Region)
-admin.site.register(Provincia)
-admin.site.register(Comuna)
-admin.site.register(Direccion)
 admin.site.register(Genero)
 admin.site.register(Idioma)
 admin.site.register(Clasificacion)

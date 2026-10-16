@@ -8,10 +8,6 @@ from peliculas_app import views
 enrutador = routers.DefaultRouter()
 
 enrutador.register(r'paises', views.PaisViewSet)
-enrutador.register(r'regiones', views.RegionViewSet)
-enrutador.register(r'provincias', views.ProvinciaViewSet)
-enrutador.register(r'comunas', views.ComunaViewSet)
-enrutador.register(r'direcciones', views.DireccionViewSet)
 enrutador.register(r'generos', views.GeneroViewSet)
 enrutador.register(r'idiomas', views.IdiomaViewSet)
 enrutador.register(r'clasificaciones', views.ClasificacionViewSet)

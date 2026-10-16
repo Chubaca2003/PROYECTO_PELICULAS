@@ -1,9 +1,9 @@
 from rest_framework import serializers
 
-from .models import Pais, Region, Provincia, Comuna, Direccion, Genero, Idioma
-from .models import Clasificacion, Estado, Productora, Plataforma, Titulo
-from .models import Temporada, Episodio, Persona, RolProduccion, Reparto
-from .models import Usuario, Critico, Resena, Visualizacion
+from .models import Pais, Genero, Idioma, Clasificacion, Estado, Productora
+from .models import Plataforma, Titulo, Temporada, Episodio, Persona
+from .models import RolProduccion, Reparto, Usuario, Critico, Resena
+from .models import Visualizacion
 
 # Un serializador por cada clase del modelo de datos.
 # ModelSerializer construye los campos a partir del modelo, por lo que
@@ -12,26 +12,6 @@ from .models import Usuario, Critico, Resena, Visualizacion
 class PaisSerializer(serializers.ModelSerializer):
     class Meta:
         model = Pais
-        fields = '__all__'
-
-class RegionSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Region
-        fields = '__all__'
-
-class ProvinciaSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Provincia
-        fields = '__all__'
-
-class ComunaSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Comuna
-        fields = '__all__'
-
-class DireccionSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Direccion
         fields = '__all__'
 
 class GeneroSerializer(serializers.ModelSerializer):

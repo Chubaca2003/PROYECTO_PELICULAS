@@ -12,7 +12,7 @@ str_telefono = "Teléfono"
 str_fecha_nac = "Fecha Nacimiento"
 
 # ---------------------------------------------------------------------
-# Ubicación geográfica
+# Países
 # ---------------------------------------------------------------------
 
 class Pais(models.Model):
@@ -25,48 +25,6 @@ class Pais(models.Model):
         return self.nombre
     class Meta:
         db_table_comment = "Información de paises del mundo, para asociar a títulos, personas y usuarios."
-
-class Region(models.Model):
-    codigo = models.CharField(str_codigo,max_length=2,null=False)
-    region = models.CharField("Región",max_length=41,null=False)
-    habilitado = models.BooleanField(int_habilitado,default=True,null=False)
-    def __str__(self):
-        return self.region
-    class Meta:
-        db_table_comment = "Regiones de Chile, data de SUBDERE."
-
-class Provincia(models.Model):
-    codigo = models.CharField(str_codigo,max_length=3,null=False)
-    provincia = models.CharField("Provincia",max_length=50,null=False)
-    region = models.ForeignKey(Region,on_delete=models.CASCADE,null=False)
-    habilitado = models.BooleanField(int_habilitado,default=True,null=False)
-    def __str__(self):
-        return self.provincia
-    class Meta:
-        db_table_comment = "Provincias de Chile, data de SUBDERE. Pertenece a una región específica."
-
-class Comuna(models.Model):
-    codigo = models.CharField(str_codigo,max_length=5,null=False)
-    comuna = models.CharField("Comuna",max_length=60,null=False)
-    provincia = models.ForeignKey(Provincia,on_delete=models.CASCADE,null=False)
-    habilitado = models.BooleanField(int_habilitado,default=True,null=False)
-    def __str__(self):
-        return self.comuna
-    class Meta:
-        db_table_comment = "Comunas de Chile, data de SUBDERE. Pertenece a una provincia específica."
-
-class Direccion(models.Model):
-    comuna = models.ForeignKey(Comuna,on_delete=models.CASCADE,null=False)
-    calle = models.CharField("Calle",max_length=100,null=True)
-    numero = models.CharField("Número",max_length=10,null=True)
-    departamento = models.CharField("Dpto/Oficina",max_length=10,null=True)
-    habilitado = models.BooleanField(int_habilitado,default=True,null=False)
-    created_at = models.DateTimeField(str_fecha_creacion,auto_now_add=True)
-    updated_at = models.DateTimeField(str_fecha_actualizacion,auto_now=True)
-    def __str__(self):
-        return f"{self.calle} {self.numero}, {self.comuna}"
-    class Meta:
-        db_table_comment = "Direcciones físicas asociadas a productoras y usuarios."
 
 # ---------------------------------------------------------------------
 # Catálogo audiovisual
@@ -125,7 +83,6 @@ class Productora(models.Model):
     web = models.URLField(str_www,null=True)
     correo = models.EmailField(str_email,null=True)
     telefono = models.CharField(str_telefono,max_length=15,null=True)
-    direccion = models.ForeignKey(Direccion,on_delete=models.CASCADE,null=True)
     habilitado = models.BooleanField(int_habilitado,default=True,null=False)
     created_at = models.DateTimeField(str_fecha_creacion,auto_now_add=True)
     updated_at = models.DateTimeField(str_fecha_actualizacion,auto_now=True)
@@ -254,7 +211,6 @@ class Usuario(models.Model):
     nacionalidad = models.ForeignKey(Pais,on_delete=models.CASCADE,null=True)
     fecha_nacimiento = models.DateField(str_fecha_nac,null=False)
     contrasenia = models.CharField(max_length=128,null=True)
-    direccion = models.ForeignKey(Direccion,on_delete=models.CASCADE,null=True)
     habilitado = models.BooleanField(int_habilitado,default=True,null=False)
     created_at = models.DateTimeField(str_fecha_creacion,auto_now_add=True)
     updated_at = models.DateTimeField(str_fecha_actualizacion,auto_now=True)

@@ -2,14 +2,12 @@ from django.conf import settings
 from django.shortcuts import render
 from rest_framework import viewsets
 
-from .models import Pais, Region, Provincia, Comuna, Direccion, Genero, Idioma
-from .models import Clasificacion, Estado, Productora, Plataforma, Titulo
-from .models import Temporada, Episodio, Persona, RolProduccion, Reparto
-from .models import Usuario, Critico, Resena, Visualizacion
+from .models import Pais, Genero, Idioma, Clasificacion, Estado, Productora
+from .models import Plataforma, Titulo, Temporada, Episodio, Persona
+from .models import RolProduccion, Reparto, Usuario, Critico, Resena
+from .models import Visualizacion
 
-from .serializer import PaisSerializer, RegionSerializer, ProvinciaSerializer
-from .serializer import ComunaSerializer, DireccionSerializer
-from .serializer import GeneroSerializer, IdiomaSerializer
+from .serializer import PaisSerializer, GeneroSerializer, IdiomaSerializer
 from .serializer import ClasificacionSerializer, EstadoSerializer
 from .serializer import ProductoraSerializer, PlataformaSerializer
 from .serializer import TituloSerializer, TemporadaSerializer
@@ -34,22 +32,6 @@ def inicio(request):
 class PaisViewSet(viewsets.ModelViewSet):
     queryset = Pais.objects.all()
     serializer_class = PaisSerializer
-
-class RegionViewSet(viewsets.ModelViewSet):
-    queryset = Region.objects.all()
-    serializer_class = RegionSerializer
-
-class ProvinciaViewSet(viewsets.ModelViewSet):
-    queryset = Provincia.objects.all()
-    serializer_class = ProvinciaSerializer
-
-class ComunaViewSet(viewsets.ModelViewSet):
-    queryset = Comuna.objects.all()
-    serializer_class = ComunaSerializer
-
-class DireccionViewSet(viewsets.ModelViewSet):
-    queryset = Direccion.objects.all()
-    serializer_class = DireccionSerializer
 
 class GeneroViewSet(viewsets.ModelViewSet):
     queryset = Genero.objects.all()
